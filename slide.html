@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="text-slider-wrapper">
+        <div class="text-slider">
+              <div class="text-slide"><h1>A blessing for <br> every skin.</h1></div>
+              <div class="text-slide"><h1>The perfect mix of <br> old & new.</h1></div>
+              <div class="text-slide"><h1>A journey over borders <br> & generations.</h1></div>
+        </div>
+  </div>
+
+  <div class="slider-control">
+        <div class="prev"><button type="button"><ion-icon name="arrow-back"></ion-icon></button></div>
+        <div class="next"><button type="button"><ion-icon name="arrow-forward"></ion-icon></button></div>
+  </div>
+
+  <div class="blocks">
+        <div class="block-1"></div>
+        <div class="block-2"></div>
+        <div class="block-3"></div>
+  </div>
+
+  <div class="overlay"></div>
+
+  <div class="image-slider">
+        <div class="image-slide" id="one" style="background: url(https://i.pinimg.com/originals/07/0c/4a/070c4ae0e59af72c222e2756c87baa1a.gif) no-repeat 50% 50%; background-size: cover;"></div>
+        <div class="image-slide" id="two" style="background: url(https://i.pinimg.com/originals/76/c7/02/76c702c553f2264e6480b170dc8630a5.gif) no-repeat 50% 50%; background-size: cover;"></div>
+        <div class="image-slide" id="three" style="background: url(https://i.pinimg.com/originals/d2/1a/4b/d21a4b636e92277873e8f8870777be06.gif) no-repeat 50% 50%; background-size: cover;"></div>
+  </div>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script src="./app.js"></script>
+</body>
+</html>
